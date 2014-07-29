@@ -103,5 +103,11 @@ PRODUCT_PROPERTY_OVERRIDES += \
     sys.mem.max_hidden_apps=10
 
 PRODUCT_PROPERTY_OVERRIDES += \
-    persist.sys.usb.config=mtp \
-    wifi.interface=wlan0
+    persist.sys.usb.config=mtp,adb \
+    wifi.interface=wlan0 \
+    
+#ADB debug
+PRODUCT_PROPERTY_OVERRIDES += \    
+	ro.debuggable=1 \
+	persist.service.adb.enable=1 \
+	persist.service.debuggable=1 \
