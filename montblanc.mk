@@ -102,7 +102,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
     wifi.interface=wlan0 \
     
 #ADB debug
-PRODUCT_PROPERTY_OVERRIDES += \    
-	ro.debuggable=1 \
-	persist.service.adb.enable=1 \
-	persist.service.debuggable=1
+#PRODUCT_PROPERTY_OVERRIDES += \    
+#	ro.debuggable=1 \
+#	persist.service.adb.enable=1 \
+#	persist.service.debuggable=1 
